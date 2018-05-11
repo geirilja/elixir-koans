@@ -24,7 +24,7 @@ defmodule Lists do
   end
 
   koan "Precision is also valued" do
-    assert List.delete_at([:a, :b, :c], 2) == ___
+    assert List.delete_at([:a, :b, :c], 2) == [:a, :b]
   end
 
   koan "Replication is also possible" do
